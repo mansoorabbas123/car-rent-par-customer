@@ -1,6 +1,6 @@
 import React from "react";
 
-function Service() {
+function Services() {
   return (
     <section>
       <h2 className="text-5xl font-bold text-center text-orange-500 pt-20 ">
@@ -122,4 +122,4 @@ function Service() {
   );
 }
 
-export default Service;
+export { Services };

@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className=" bg-clip-content p-4 border-4 border-dashed border-orange-500 bg-gray-300 mt-10">
+    <section className="bg-clip-content p-4 border-4 border-dashed border-orange-500 bg-gray-300 mt-10">
       <div className="grid grid-cols-2 gap-4 mx-20 my-20 ">
         <div>
           <h2 className="text-5xl font-bold text-center text-orange-500 pt-6 ">
@@ -38,4 +38,4 @@ function About() {
   );
 }
 
-export default About;
+export { About };

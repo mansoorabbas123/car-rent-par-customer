@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className=" flex  place-content-center my-5">
+    <section className="flex  place-content-center my-5">
       <form className="w-full max-w-lg">
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full  px-3 mb-6 md:mb-0">
@@ -151,4 +151,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export { Contact };

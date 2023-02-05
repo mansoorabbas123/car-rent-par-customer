@@ -4,4 +4,4 @@ function Fleet() {
   return <div>Fleet</div>;
 }
 
-export default Fleet;
+export { Fleet };

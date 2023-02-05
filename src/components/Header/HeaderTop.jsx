@@ -35,7 +35,7 @@ const HeaderTop = () => {
         paddingX="5.3rem"
       >
         <Box fontSize="1.5rem" marginLeft="5px3">
-          <img src="/images/logo.png" className="w-40" />
+          <img src="/images/logo.png" className="w-[6rem]" />
         </Box>
         <Box display="flex" alignItems="center" justifyContent="space-between">
           <Box

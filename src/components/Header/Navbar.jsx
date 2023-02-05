@@ -22,7 +22,7 @@ const Header = styled(AppBar)(({ theme }) => ({
 }));
 
 const Navbar = () => {
-  const matches = useMediaQuery("(max-width:600px)");
+  const matches = useMediaQuery("(max-width:847px)");
 
   const Nav = styled(Toolbar)(({ theme }) => ({
     "&.MuiToolbar-root": {
