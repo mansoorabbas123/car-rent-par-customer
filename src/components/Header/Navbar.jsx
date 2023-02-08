@@ -39,7 +39,6 @@ const Navbar = () => {
         <Nav>
           {matches ? (
             <>
-              {" "}
               <IconButton
                 size="large"
                 edge="start"

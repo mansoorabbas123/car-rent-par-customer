@@ -2,8 +2,8 @@ import React from "react";
 
 function Services() {
   return (
-    <section>
-      <h2 className="text-5xl font-bold text-center text-orange-500 pt-20 ">
+    <section className="bg-orange-500 pb-10">
+      <h2 className="text-5xl font-bold text-center text-black pt-20 ">
         Reliable car service for personal or business travel
       </h2>
       <p className="px-40 py-6 text-lg">
@@ -16,13 +16,17 @@ function Services() {
         vehicles to select from.
       </p>
       <div className="grid grid-cols-3 gap-4 mx-10 my-10 ">
-        <div className="bg-orange-500 rounded-md p-5   ">
-          <img
-            src="/images/wedding.webp"
-            className="w-60 h-60  rounded-full mb-3 items-center "
-          />
-          <h4 className="text-white text-3xl font-bold pb-3  ">WEDDING CARS</h4>
-          <p className="text-white">
+        <div className="bg-white rounded-md p-5   ">
+          <center>
+            <img
+              src="/images/wedding.webp"
+              className="w-60 h-60  rounded-full mb-3  "
+            />
+          </center>
+          <h4 className="text-orange-500 text-3xl font-bold pb-3 text-center ">
+            WEDDING CARS
+          </h4>
+          <p className=" text-center ">
             Allow us to make your marriage day special. We understand that you
             may get an alternate chance to make the stylish first print. As a
             result, we give the finest motorists and the most stunning service
@@ -32,15 +36,18 @@ function Services() {
             us today to check our luxury fleet and services.
           </p>
         </div>
-        <div className="bg-orange-500 rounded-md p-5   ">
-          <img
-            src="/images/airport.webp"
-            className="w-60 h-60  rounded-full mb-3 items-center "
-          />
-          <h4 className="text-white text-3xl font-bold pb-3  ">
+        <div className="bg-white rounded-md p-5   ">
+          <center>
+            {" "}
+            <img
+              src="/images/airport.webp"
+              className="w-60 h-60  rounded-full mb-3 items-center "
+            />{" "}
+          </center>
+          <h4 className="text-orange-500 text-3xl font-bold pb-3 text-center ">
             AIRPORT TRANSFERS
           </h4>
-          <p className="text-white">
+          <p className=" text-center ">
             How to get from San Diego Airport to your destination, if you are a
             tourist. You have no need to worry because our chauffeur services
             will cover everything. Black car service strives to give the
@@ -50,13 +57,17 @@ function Services() {
             there relaxed, recharged, and ready with a luxury services.
           </p>
         </div>
-        <div className="bg-orange-500 rounded-md p-5   ">
-          <img
-            src="/images/weekend.webp"
-            className="w-60 h-60  rounded-full mb-3 items-center "
-          />
-          <h4 className="text-white text-3xl font-bold pb-3  ">WEEKEND CARS</h4>
-          <p className="text-white">
+        <div className="bg-white rounded-md p-5   ">
+          <center>
+            <img
+              src="/images/weekend.webp"
+              className="w-60 h-60  rounded-full mb-3 items-center "
+            />
+          </center>
+          <h4 className="text-orange-500 text-3xl font-bold pb-3 text-center ">
+            WEEKEND CARS
+          </h4>
+          <p className=" text-center">
             Weekend car rental services can be a convenient and flexible option
             for those who need a car for a short period of time, such as for a
             weekend getaway or a business trip. They can also be a
@@ -68,13 +79,17 @@ function Services() {
         </div>
       </div>
       <div className="grid grid-cols-3 gap-4 mx-10 my-10 ">
-        <div className="bg-orange-500 rounded-md p-5   ">
-          <img
-            src="/images/holyday.webp"
-            className="w-60 h-60  rounded-full mb-3 items-center "
-          />
-          <h4 className="text-white text-3xl font-bold pb-3  ">HOLIDAY CARS</h4>
-          <p className="text-white">
+        <div className="bg-white rounded-md p-5   ">
+          <center>
+            <img
+              src="/images/holyday.webp"
+              className="w-60 h-60  rounded-full mb-3 items-center "
+            />{" "}
+          </center>
+          <h4 className="text-orange-500 text-3xl font-bold pb-3 text-center ">
+            HOLIDAY CARS
+          </h4>
+          <p className=" text-center">
             If you’re looking for a way to explore the great city of Los Angeles
             and San Diego during your holiday break, consider holiday car
             rental. There are many holiday car rental services available, so
@@ -85,13 +100,17 @@ function Services() {
             special.
           </p>
         </div>
-        <div className="bg-orange-500 rounded-md p-5   ">
-          <img
-            src="/images/student.webp"
-            className="w-60 h-60  rounded-full mb-3 items-center "
-          />
-          <h4 className="text-white text-3xl font-bold pb-3  ">STUDENT CARS</h4>
-          <p className="text-white">
+        <div className="bg-white rounded-md p-5   ">
+          <center>
+            <img
+              src="/images/student.webp"
+              className="w-60 h-60  rounded-full mb-3 items-center "
+            />
+          </center>
+          <h4 className="text-orange-500 text-3xl font-bold pb-3  text-center">
+            STUDENT CARS
+          </h4>
+          <p className=" text-center">
             If you are a student, it can be hard to find affordable car rental
             services that will work with your schedule. Looking to save money
             while you’re on your way to school? Check out student car rental
@@ -101,13 +120,17 @@ function Services() {
             special student discounts.
           </p>
         </div>
-        <div className="bg-orange-500 rounded-md p-5   ">
-          <img
-            src="/images/hourly.webp"
-            className="w-60 h-60  rounded-full mb-3 items-center "
-          />
-          <h4 className="text-white text-3xl font-bold pb-3  ">HOURLY CARS</h4>
-          <p className="text-white">
+        <div className="bg-white rounded-md p-5   ">
+          <center>
+            <img
+              src="/images/hourly.webp"
+              className="w-60 h-60  rounded-full mb-3 items-center "
+            />
+          </center>
+          <h4 className="text-orange-500 text-3xl font-bold pb-3 text-center ">
+            HOURLY CARS
+          </h4>
+          <p className=" text-center">
             Allow us to make your marriage day special. We understand that you
             may get an alternate chance to make the stylish first print. As a
             result, we give the finest motorists and the most stunning service
