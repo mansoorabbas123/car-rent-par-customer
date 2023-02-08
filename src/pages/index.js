@@ -6,8 +6,8 @@ import HomeLayout from "@/components/Layout/HomeLayout/HomeLayout";
 import { HeroForm } from "@/components/Header/HeroForm";
 import { Services } from "@/components/Home/Services";
 import { About } from "@/components/Home/About";
-import Fleeet from "./Fleeet";
-import Footer from "./Footer";
+import { Fleet } from "@/components/Home/Fleet";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +26,7 @@ export default function Home() {
             <HeroForm />
             <Services />
             <About />
-            <Fleeet />
+            <Fleet />
             <Footer />
           </>
         </HomeLayout>
